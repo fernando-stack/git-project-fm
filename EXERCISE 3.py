@@ -1,4 +1,4 @@
-#Script file added
+#script file added
 
 import subprocess
 import psutil

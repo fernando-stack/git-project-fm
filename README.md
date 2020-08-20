@@ -1,2 +1,2 @@
 # git-project-fm
-This is related code to exercise performed in previous task
+This is code related to exercise performed in previous task

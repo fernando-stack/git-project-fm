@@ -1,4 +1,4 @@
-#This script offers user to perform different kind of getting information realted to network (Host IP Configuration, pinging google site). 
+#This script offers to user a menu with the following options in order to get network information (Host IP Configuration, pinging google site). 
 #Related to system information (Hardware resources/Components/Software enviromnet, see Host CPU Statistics, see Host SWAP Memory information). 
 #User just has to select the preferred option in order to get the information which was described before.
 

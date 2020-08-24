@@ -1,4 +1,8 @@
-#Script file added
+#This script offers user to perform different kind of getting information realted to network (Host IP Configuration, pinging google site). 
+#Related to system information (Hardware resources/Components/Software enviromnet, see Host CPU Statistics, see Host SWAP Memory information). 
+#User just has to select the preferred option in order to get the information which was described before.
+
+#Author: Fernando Mareño Revollo - Date: 17/08/2020 
 
 import subprocess
 import psutil

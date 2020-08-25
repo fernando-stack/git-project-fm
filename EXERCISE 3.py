@@ -1,7 +1,7 @@
 import subprocess
 import psutil
 
-print("** WHAT WOULD YOU LIKE TO DO? **")
+print("** WHAT WOULD YOU LIKE TO DO NOW? **")
 print("Option 1: See windows IP configuration")
 print("Option 2: See the system information")
 print("Option 3: ping to www.google.com")

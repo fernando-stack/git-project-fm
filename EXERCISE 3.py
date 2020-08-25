@@ -1,7 +1,42 @@
 #Script file added
+# This script offers to user a menu with the following information options related to network (Host IP Configuration,
+# pinging google site). Related to system (Hardware resources/Components/Software environment, see Host CPU
+# Statistics, see Host SWAP Memory information).
+# User just has to select the preferred option in order to get the information which was described before.
+
+# Author: Fernando Mareño Revollo - Date: 24/08/2020
+import subprocess
+import psutil
+
 
 import subprocess
 import psutil
+
+
+def ipconfig():
+    ip = subprocess.run(["ipconfig"])
+    return ip
+
+
+def inf():
+    sys = subprocess.run(["msinfo32"])
+    return sys
+
+
+def ping():
+    png = subprocess.run(["ping", "www.google.com"])
+    return png
+
+
+def cpu():
+    print(psutil.cpu_stats())
+    return print(psutil.cpu_stats())
+
+
+def mem():
+    print(psutil.swap_memory())
+    return print(psutil.swap_memory())
+
 
 print("** WHAT WOULD YOU LIKE TO DO NOW? **")
 print("Option 1: See windows IP configuration")

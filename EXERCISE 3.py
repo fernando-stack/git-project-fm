@@ -1,5 +1,10 @@
 #Script file added
 
+# LIBRARIES
+# In this case, we worked with "Subprocess" and "psutil" libreries (system resources information-input/output return code). Subprocess is already installed in python, 
+# but we need to import this one.
+# psutil library is not installed by default, so we need to download this from> https://pypi.org/project/psutil/#files, and then we have to import it   
+
 import subprocess
 import psutil
 
